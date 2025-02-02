@@ -45,6 +45,7 @@ export default function Hero () {
                 height: '100%',
                 duration: 1,
                 ease: 'power1.inOut',
+                // @ts-ignore
                 onStart: () => nextVidRef.current.play(),
             })
 
